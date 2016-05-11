@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# To fix issues with Ruby 2.3
+gem 'nokogiri', '~> 1.6.8.rc2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
